@@ -1,3 +1,5 @@
+2025-04-17
+
 ### Kategorie: VPN
 # Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
 ||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
