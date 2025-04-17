@@ -1,4 +1,8 @@
-2025-04-17
+# VERZE 2025-04-17 18:30
+
+# STAŽENÍ NA:
+# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
+
 
 ### Kategorie: VPN
 # Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
