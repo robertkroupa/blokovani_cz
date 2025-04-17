@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "blokovani.cz",
+    "description": "",
+    "home_page_url": "https://robertkroupa.github.io",
+    "feed_url": "https://robertkroupa.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Robert Kroupa"
+    },
+    "items": [
+    ]
+}
