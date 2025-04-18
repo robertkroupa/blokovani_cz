@@ -22,9 +22,6 @@
 # Doména používaná pro VoLTE/VoWiFi komunikaci, často zobrazená v mobilních sítích.
 ||epdg.epc.mnc001.mcc230.pub.3gppnetwork.org^  # Připojení k IMS službám (např. VoLTE, VoWiFi) v síti T-Mobile CZ.
 
-### Kategorie: Nezařazeno
-||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
-
 ### Kategorie: Obchody – Alza reklamy a bannery
 # Odstraňuje vizuální reklamu a bannery na webu Alza.cz.
 ||cdn.alza.cz/Foto/ImgGalery/bannery^
@@ -48,6 +45,7 @@
 ||fbcdn.net^
 ||reddit.cz^
 ||twitch.tv^
+||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
 ||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
 
 ### Kategorie: Hry
