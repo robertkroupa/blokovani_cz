@@ -1,5 +1,10 @@
+# CZ+SK-filtr_blokovani_cz-(LIGHT).txt
 # VERZE 2025-04-17 18:30
-
+# 
+#
+# WEB: https://blokovani.cz
+#
+#
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
 
