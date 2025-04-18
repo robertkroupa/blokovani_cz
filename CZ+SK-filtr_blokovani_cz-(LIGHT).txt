@@ -76,6 +76,13 @@
 @@email.seznam.cz^
 @@napoveda.seznam.cz^
 
+### Kategorie: O2
+# Blokace streamovacích služeb a internetového poskytovatele O2 – pro snížení sledování.
+||o2tv.cz^          # O2 TV – streamovací služba od O2, blokováno pro snížení sledování.
+||o2active.cz^      # O2 Active – streamovací služba od O2, blokováno pro snížení sledování.
+||o2.cz^            # O2 – internetový poskytovatel, blokováno pro snížení sledování.
+
+
 ### Kategorie: České zpravodajství (dezinformace + bulvár)
 # Subjektivní blokace médií, která mohou šířit dezinformace, bulvár nebo nadbytečné zprávy.
 ||idnes.cz^
