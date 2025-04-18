@@ -124,6 +124,7 @@
 ||baidu.com^
 ||qq.com^
 ||taobao.com^
+||grs.platform.dbankcloud.ru^  # Doména spojená s čínským cloudovým úložištěm.
 
 ### Kategorie: Americké & UK sledovací domény
 # Reklamní, analytické nebo sledovací platformy.
