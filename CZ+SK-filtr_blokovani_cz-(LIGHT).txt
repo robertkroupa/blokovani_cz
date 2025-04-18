@@ -1,5 +1,4 @@
 # CZ+SK-filtr_blokovani_cz-(LIGHT).txt
-# VERZE 2025-04-17 18:30
 # 
 #
 # WEB: https://blokovani.cz
