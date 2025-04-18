@@ -1,0 +1,171 @@
+# VERZE 2025-04-17 18:30
+
+# STAŽENÍ NA:
+# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
+
+
+### Kategorie: VPN
+# Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
+||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
+||cyberia.is^          # Cyberia – může být VPN nebo proxy hosting, často používaný pro obcházení cenzury.
+||tummy.com^           # Doména spojená s provozovateli síťových služeb – potenciálně anonymizační nebo proxy.
+
+### Kategorie: AV (Antiviry)
+# Blokace služeb některých antivirů – většinou kvůli telemetrii nebo zbytečné komunikaci.
+||norton.com^          # Norton – antivirový software, může posílat data o systému nebo uživateli.
+
+### Kategorie: Nezařazeno
+# Možné záznamy bez určení, doporučeno ověřit jejich účel.
+||via.net^             # Starší ISP/doména využívaná pro různé služby – původní význam nejasný.
+
+### Kategorie: T-Mobile
+# Doména používaná pro VoLTE/VoWiFi komunikaci, často zobrazená v mobilních sítích.
+||epdg.epc.mnc001.mcc230.pub.3gppnetwork.org^  # Připojení k IMS službám (např. VoLTE, VoWiFi) v síti T-Mobile CZ.
+
+### Kategorie: Nezařazeno
+||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
+
+### Kategorie: Obchody – Alza reklamy a bannery
+# Odstraňuje vizuální reklamu a bannery na webu Alza.cz.
+||cdn.alza.cz/Foto/ImgGalery/bannery^
+||cdn.alza.cz/Styles/full/images^
+
+### Kategorie: Video – Youtube
+# Omezení mobilního Youtube, ale povolena hlavní stránka a obrázky.
+||m.youtube.com^       # Mobilní verze Youtube – často používaná v aplikacích.
+!||youtube.com^        # Povolení hlavní Youtube domény.
+!||ytimg.com^          # Povolení obrázků z Youtube (náhledy videí).
+
+#||discord.com^        # Zakomentováno – blokace Discordu (zatím neaktivní).
+
+### Kategorie: Google Photos
+||ggpht.com^           # Servery s obrázky a náhledy z Google Photos (např. sdílené galerie).
+
+### Kategorie: Sociální sítě – Facebook, Reddit, Twitch
+# Blokace sociálních sítí kvůli soukromí, odvedení pozornosti nebo omezení přístupu.
+||facebook.com^
+||facebook.net^
+||fbcdn.net^
+||reddit.cz^
+||twitch.tv^
+||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
+
+### Kategorie: Hry
+# Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
+||codmwest.com^        # Call of Duty: Mobile západní servery.
+||wargaming.net^       # World of Tanks a další hry od Wargamingu.
+||modxvm.com^          # Modifikace pro WoT – sledování statistik.
+||tanks.gg^            # Statistiky vozidel z WoT.
+||poliroid.me^         # Náhledy a doplňky pro herní módy.
+||tomato.gg^           # Sledování výkonu hráče (WoT).
+||worldoftanks.eu^
+||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
+||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
+||geforcenow.com^      # Cloudové hraní od NVIDIA.
+||gamecloud.club^      # Alternativa cloudového hraní.
+||vortex.gg^           # Další cloud gaming platforma.
+||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
+
+### Kategorie: Seznam profi – Výjimky
+# Povoleno, aby e-mailové a přihlašovací služby Seznam.cz fungovaly i při blokaci zpravodajských webů.
+@@emailprofi.seznam.cz^
+@@login.szn.cz^
+@@login.seznam.cz^
+@@email.seznam.cz^
+@@napoveda.seznam.cz^
+
+### Kategorie: České zpravodajství (dezinformace + bulvár)
+# Subjektivní blokace médií, která mohou šířit dezinformace, bulvár nebo nadbytečné zprávy.
+||idnes.cz^
+||seznam.cz^
+||seznamzpravy.cz^
+||novinky.cz^
+||securitymagazin.cz^
+||cnn.iprima.cz^
+||dotyk.cz^
+||cc.cz^
+||voxpot.cz^
+||super.cz^
+||sport.cz^
+||stream.cz^
+||extra.cz^
+||prozeny.cz^
+||garaz.cz^
+||kverulant.org^
+||pametnaroda.cz^
+||iprima.cz^
+||aktualne.cz^
+||echo24.cz^
+||ceskenoviny.cz^
+||ihned.cz^
+||hn.cz^
+||lifee.cz^
+||forum24.cz^
+||autosalon.tv^
+||vlasta.cz^
+||nova.cz^
+||nastartu.cz^
+||denikn.cz^
+
+### Kategorie: Filmy
+# Weby pro streamování nebo stahování filmů – často porušující autorská práva.
+||kukaj.to^
+||prehraj.to^
+||bombuj.si^
+
+### Kategorie: Dospělý obsah
+||pornhub.com^
+||xvideos.com^
+
+### Kategorie: Čínské sledovací domény
+# Domény často používané ke sledování uživatelů z Číny.
+||baidu.com^
+||qq.com^
+||taobao.com^
+
+### Kategorie: Americké & UK sledovací domény
+# Reklamní, analytické nebo sledovací platformy.
+# ||amazonaws.com^      # Zakomentováno – používá Amazon S3. Může být potřeba povolit pro některé služby.
+||norton.com^
+||doubleclick.net^     # Google reklamní síť.
+||xmllover.com^
+||telemetry.malwarebytes.com^  # Sledování u antiviru Malwarebytes.
+||bing.com^
+||pixelgunserver.com^
+||tummy.com^
+
+### Kategorie: Warez
+||cztorrent.net^        # Český torrent tracker – často blokován kvůli pirátství.
+
+### Kategorie: Neznámé aplikace
+||izatcloud.net^
+||mozaws.net^
+||taqbom.com^
+||videovai.xyz^
+||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^  # Trolling adresa.
+
+### Kategorie: Výjimky (whitelist)
+!||jtvnw.net^
+#||cloudfront.net^      # Zakomentováno – CDN síť, používaná mnoha službami (např. eWeLink).
+!||ttvnw.net^
+!||3gppnetwork.org^
+!||wultra.app^
+!||ggpht.com^
+!||trafficmanager.net^
+!||rtmark.net^
+!||venetrigni.com^
+!||embed.ly^
+!||adsco.re^
+!||yadro.ru^
+!||adsemo.com^
+!||akamaiedge.net^
+!||videosworks.com^
+!||buzzsprout.com^
+!||ggpht.com^
+!||sdn.cz^
+!||bugsnag.com^
+
+### Kategorie: Telemetrie a sledování
+||crashlytics.com^       # Telemetrie – sběr dat o pádech a chybách v aplikacích.
+||sirius.mwbsys.com^      # Malwarebytes telemetrie.
+||trace.svc.ui.com^       # Ubiquiti telemetrie.
