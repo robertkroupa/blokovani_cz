@@ -44,11 +44,11 @@
 
 ### Kategorie: Sociální sítě – Facebook, Reddit, Twitch
 # Blokace sociálních sítí kvůli soukromí, odvedení pozornosti nebo omezení přístupu.
-||facebook.com^
-||facebook.net^
-||fbcdn.net^
-||reddit.cz^
-||twitch.tv^
+||facebook.com^         # Facebook – sociální síť, blokace může narušit načítání obrázků a vide
+||facebook.net^         # Facebook – sociální síť, blokace může narušit načítání obrázků a videí.
+||fbcdn.net^            # Facebook CDN – blokace může narušit načítání obrázků a videí.
+||reddit.cz^           # Česká verze Redditu – sociální síť pro sdílení obsahu.
+||twitch.tv^           # Hlavní doména Twitch – streamovací platforma.
 ||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
 ||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
 
@@ -144,8 +144,6 @@
 ||pixelgunserver.com^
 ||tummy.com^
 
-### Kategorie: Warez
-||cztorrent.net^        # Český torrent tracker – často blokován kvůli pirátství.
 
 ### Kategorie: Neznámé aplikace
 ||izatcloud.net^
