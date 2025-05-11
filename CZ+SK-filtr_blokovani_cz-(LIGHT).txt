@@ -8,6 +8,12 @@
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
 
+### Obecná Kategorie
+||example.com^
+
+
+
+
 ### Kategorie: VPN
 # Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
 ||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
