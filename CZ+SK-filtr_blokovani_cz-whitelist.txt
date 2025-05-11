@@ -6,7 +6,7 @@
 #
 #
 # STAŽENÍ NA:
-# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz-whitelist.txt
+# https://github.com/robertkroupa/blokovani_cz/raw/refs/heads/main/CZ+SK-filtr_blokovani_cz-whitelist.txt
 
 @@||dns.google^
 @@||openai.com^
