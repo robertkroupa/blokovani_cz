@@ -61,7 +61,6 @@
 ### Kategorie: Hry
 # Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
 ||codmwest.com^        # Call of Duty: Mobile západní servery.
-||wargaming.net^       # World of Tanks a další hry od Wargamingu.
 ||modxvm.com^          # Modifikace pro WoT – sledování statistik.
 ||tanks.gg^            # Statistiky vozidel z WoT.
 ||poliroid.me^         # Náhledy a doplňky pro herní módy.
@@ -73,6 +72,17 @@
 ||gamecloud.club^      # Alternativa cloudového hraní.
 ||vortex.gg^           # Další cloud gaming platforma.
 ||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
+
+## Blokace komplet Wargaming.net
+||wargaming.net^
+||wargaming.com^
+||wotblitz.com^
+||worldoftanks.com^
+||worldofwarships.com^
+||wgcdn.co^
+||wotpub.com^
+||wgc-external-<region>.wargaming.net^
+
 
 ### Kategorie: Seznam profi – Výjimky
 # Povoleno, aby e-mailové a přihlašovací služby Seznam.cz fungovaly i při blokaci zpravodajských webů.
