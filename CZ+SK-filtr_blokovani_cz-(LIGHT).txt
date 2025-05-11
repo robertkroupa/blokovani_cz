@@ -9,17 +9,7 @@
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
 
 ### Obecná Kategorie
-||example.com^
-
-
-### Zablokování známých DoH serverů proti obcházení
-#||cloudflare-dns.com^
-#||dns.google^
-||mozilla.cloudflare-dns.com^
-||dns.quad9.net^
-||doh.opendns.com^
-||dns.adguard.com^
-||dns.nextdns.io^
+#||example.com^
 
 
 
@@ -74,7 +64,6 @@
 ||tanks.gg^            # Statistiky vozidel z WoT.
 ||poliroid.me^         # Náhledy a doplňky pro herní módy.
 ||tomato.gg^           # Sledování výkonu hráče (WoT).
-||worldoftanks.eu^
 ||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
 ||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
 ||geforcenow.com^      # Cloudové hraní od NVIDIA.
@@ -83,6 +72,7 @@
 ||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
 
 ## Blokace komplet Wargaming.net
+||worldoftanks.eu^
 ||wargaming.net^
 ||wargaming.com^
 ||wotblitz.com^
