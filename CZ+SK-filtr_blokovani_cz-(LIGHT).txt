@@ -13,7 +13,7 @@
 
 
 ### Zablokování známých DoH serverů proti obcházení
-||cloudflare-dns.com^
+#||cloudflare-dns.com^
 ||dns.google^
 ||mozilla.cloudflare-dns.com^
 ||dns.quad9.net^
