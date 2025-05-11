@@ -1,0 +1,8 @@
+@@||dns.google^
+@@||openai.com^
+@@||chat.openai.com^
+@@||platform.openai.com^
+@@||auth0.openai.com^
+@@||cdn.openai.com^
+@@||cdn.jsdelivr.net^
+@@||cloudflare.com^
