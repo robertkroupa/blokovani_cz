@@ -167,26 +167,6 @@
 ||videovai.xyz^
 ||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^  # Trolling adresa.
 
-### Kategorie: Výjimky (whitelist)
-!||jtvnw.net^
-#||cloudfront.net^      # Zakomentováno – CDN síť, používaná mnoha službami (např. eWeLink).
-!||ttvnw.net^
-!||3gppnetwork.org^
-!||wultra.app^
-!||ggpht.com^
-!||trafficmanager.net^
-!||rtmark.net^
-!||venetrigni.com^
-!||embed.ly^
-!||adsco.re^
-!||yadro.ru^
-!||adsemo.com^
-!||akamaiedge.net^
-!||videosworks.com^
-!||buzzsprout.com^
-!||ggpht.com^
-!||sdn.cz^
-!||bugsnag.com^
 
 ### Kategorie: Telemetrie a sledování
 ||crashlytics.com^       # Telemetrie – sběr dat o pádech a chybách v aplikacích.
