@@ -15,6 +15,17 @@
 
 ### Kategorie: VPN
 # Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
+||api.protonvpn.ch^
+||account.protonvpn.ch^
+||protonvpn.ch^
+||protonvpn.com^
+||protonmail.com^
+||api.protonmail.ch^
+||session.protonvpn.ch^
+||vpn-api.protonvpn.ch^
+||vpn-api.protonvpn.com^
+||installers.protonvpn.com^
+||logbook.protonvpn.ch^
 ||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
 ||cyberia.is^          # Cyberia – může být VPN nebo proxy hosting, často používaný pro obcházení cenzury.
 ||tummy.com^           # Doména spojená s provozovateli síťových služeb – potenciálně anonymizační nebo proxy.
