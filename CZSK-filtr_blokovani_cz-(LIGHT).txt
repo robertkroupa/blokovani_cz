@@ -13,11 +13,7 @@
 
 
 
-### Kategorie: VPN
-# Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
-||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
-||cyberia.is^          # Cyberia – může být VPN nebo proxy hosting, často používaný pro obcházení cenzury.
-||tummy.com^           # Doména spojená s provozovateli síťových služeb – potenciálně anonymizační nebo proxy.
+
 
 ### Kategorie: AV (Antiviry)
 # Blokace služeb některých antivirů – většinou kvůli telemetrii nebo zbytečné komunikaci.
@@ -147,6 +143,8 @@
 ||qq.com^
 ||taobao.com^
 ||grs.platform.dbankcloud.ru^  # Doména spojená s čínským cloudovým úložištěm.
+||stun.hitv.com^
+
 
 ### Kategorie: Americké & UK sledovací domény
 # Reklamní, analytické nebo sledovací platformy.

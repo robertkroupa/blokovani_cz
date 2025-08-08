@@ -146,7 +146,9 @@
 # Weby pro streamování nebo stahování filmů – často porušující autorská práva.
 ||kukaj.to^
 ||prehraj.to^
+||prehrajto.cz^
 ||bombuj.si^
+
 
 ### Kategorie: Dospělý obsah (18+)
 ||pornhub.com^
@@ -157,6 +159,7 @@
 ||baidu.com^
 ||qq.com^
 ||taobao.com^
+||sg-dr.intlgame.com^
 ||grs.platform.dbankcloud.ru^  # Doména spojená s čínským cloudovým úložištěm.
 
 ### Kategorie: Americké & UK sledovací domény
@@ -177,6 +180,10 @@
 ||taqbom.com^
 ||videovai.xyz^
 ||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^  # Trolling adresa.
+||stun.internetcalls.com^
+||stun.voipbuster.com^
+||stun.sipgate.com^
+||google.ru^
 
 
 ### Kategorie: Telemetrie a sledování
