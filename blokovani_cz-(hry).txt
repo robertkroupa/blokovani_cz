@@ -1,0 +1,50 @@
+# CZ+SK-filtr_blokovani_cz-(LIGHT).txt
+# VERZE 2025-04-18 11:45
+# 
+#
+# WEB: https://blokovani.cz
+#
+#
+# STAŽENÍ NA:
+# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
+
+### Obecná Kategorie
+#||example.com^
+
+### Kategorie: Hry
+# Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
+||codmwest.com^        # Call of Duty: Mobile západní servery.
+||modxvm.com^          # Modifikace pro WoT – sledování statistik.
+||tanks.gg^            # Statistiky vozidel z WoT.
+||poliroid.me^         # Náhledy a doplňky pro herní módy.
+||tomato.gg^           # Sledování výkonu hráče (WoT).
+||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
+||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
+||geforcenow.com^      # Cloudové hraní od NVIDIA.
+||gamecloud.club^      # Alternativa cloudového hraní.
+||vortex.gg^           # Další cloud gaming platforma.
+||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
+
+## Blokace komplet Wargaming.net
+||worldoftanks.eu^
+||wargaming.net^
+||wargaming.com^
+||wotblitz.com^
+||worldoftanks.com^
+||worldofwarships.com^
+||wgcdn.co^
+||wotpub.com^
+||wgc-external-<region>.wargaming.net^
+
+### Roblox
+||roblox.com^
+||rbxcdn.com^
+||rbxcdn.net^
+||rbxcloud.com^
+||rbxdev.com^
+||rbxasset.com^
+||rbxassetid.com^
+||rbxapi.com^
+||roblox.qq.com^
+
+
