@@ -12,6 +12,8 @@
 #||example.com^
 
 
+## Neznámé cloudové platformy Google
+34.98.110.65
 
 ### Kategorie: VPN
 # Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
@@ -33,6 +35,14 @@
 ### Kategorie: AV (Antiviry)
 # Blokace služeb některých antivirů – většinou kvůli telemetrii nebo zbytečné komunikaci.
 ||norton.com^          # Norton – antivirový software, může posílat data o systému nebo uživateli.
+
+### Avast
+||avast.com^
+||avcdn.net^
+||norton.com^
+
+
+
 
 ### Kategorie: Nezařazeno
 # Možné záznamy bez určení, doporučeno ověřit jejich účel.
@@ -68,30 +78,7 @@
 ||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
 ||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
 
-### Kategorie: Hry
-# Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
-||codmwest.com^        # Call of Duty: Mobile západní servery.
-||modxvm.com^          # Modifikace pro WoT – sledování statistik.
-||tanks.gg^            # Statistiky vozidel z WoT.
-||poliroid.me^         # Náhledy a doplňky pro herní módy.
-||tomato.gg^           # Sledování výkonu hráče (WoT).
-||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
-||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
-||geforcenow.com^      # Cloudové hraní od NVIDIA.
-||gamecloud.club^      # Alternativa cloudového hraní.
-||vortex.gg^           # Další cloud gaming platforma.
-||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
 
-## Blokace komplet Wargaming.net
-||worldoftanks.eu^
-||wargaming.net^
-||wargaming.com^
-||wotblitz.com^
-||worldoftanks.com^
-||worldofwarships.com^
-||wgcdn.co^
-||wotpub.com^
-||wgc-external-<region>.wargaming.net^
 
 
 ### Kategorie: Seznam profi – Výjimky
