@@ -6,7 +6,7 @@
 #
 #
 # STAŽENÍ NA:
-# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
+# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/blokovani_cz-(hry).txt
 
 ### Obecná Kategorie
 #||example.com^
