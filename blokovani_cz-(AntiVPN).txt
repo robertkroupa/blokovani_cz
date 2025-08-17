@@ -8,8 +8,11 @@
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
 
-### Obecná Kategorie
-#||example.com^
+### torproject
+||torproject.org^
+||torproject.net^
+||torservers.net^
+
 
 
 

@@ -77,7 +77,7 @@
 ||twitch.tv^           # Hlavní doména Twitch – streamovací platforma.
 ||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
 ||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
-
+||com.onion^          # Doména pro přístup k webům na Tor síti – blokace může narušit přístup k anonymním službám.
 
 
 
