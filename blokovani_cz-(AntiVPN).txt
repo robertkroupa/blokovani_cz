@@ -8,188 +8,41 @@
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
 
-### torproject
-||torproject.org^
-||torproject.net^
-||torservers.net^
+! Soubor: blokovani_cz-(AntiVPN).txt
+! Zdroj: konsolidace vašich 4 vstupních souborů (duplicitní položky odstraněny).
+! Syntaxe:
+!   - blokace:   ||domena.tld^   (nebo s cestou, pokud jste ji tak uvedl)
+!   - výjimka:   @@||domena.tld^
+!   - komentář:  řádky začínající ! nebo #
+! Každá položka níže má svůj komentář na řádku nad pravidlem.
 
-
-
-
-### Kategorie: VPN
-# Blokuje přístup ke známým VPN službám, které mohou obcházet regionální nebo bezpečnostní omezení.
-||api.protonvpn.ch^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
 ||account.protonvpn.ch^
-||protonvpn.ch^
-||protonvpn.com^
-||protonmail.com^
+! ProtonMail (původně v AntiVPN ve vašem seznamu)
 ||api.protonmail.ch^
-||session.protonvpn.ch^
-||vpn-api.protonvpn.ch^
-||vpn-api.protonvpn.com^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||api.protonvpn.ch^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
 ||installers.protonvpn.com^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
 ||logbook.protonvpn.ch^
-||protonvpn.com^       # ProtonVPN – anonymní VPN služba se servery po celém světě.
-||cyberia.is^          # Cyberia – může být VPN nebo proxy hosting, často používaný pro obcházení cenzury.
-||tummy.com^           # Doména spojená s provozovateli síťových služeb – potenciálně anonymizační nebo proxy.
-
-### Kategorie: AV (Antiviry)
-# Blokace služeb některých antivirů – většinou kvůli telemetrii nebo zbytečné komunikaci.
-||norton.com^          # Norton – antivirový software, může posílat data o systému nebo uživateli.
-
-### Kategorie: Nezařazeno
-# Možné záznamy bez určení, doporučeno ověřit jejich účel.
-||via.net^             # Starší ISP/doména využívaná pro různé služby – původní význam nejasný.
-
-### Kategorie: T-Mobile
-# Doména používaná pro VoLTE/VoWiFi komunikaci, často zobrazená v mobilních sítích.
-||epdg.epc.mnc001.mcc230.pub.3gppnetwork.org^  # Připojení k IMS službám (např. VoLTE, VoWiFi) v síti T-Mobile CZ.
-
-### Kategorie: Obchody – Alza reklamy a bannery
-# Odstraňuje vizuální reklamu a bannery na webu Alza.cz.
-||cdn.alza.cz/Foto/ImgGalery/bannery^
-||cdn.alza.cz/Styles/full/images^
-
-### Kategorie: Video – Youtube
-# Omezení mobilního Youtube, ale povolena hlavní stránka a obrázky.
-||m.youtube.com^       # Mobilní verze Youtube – často používaná v aplikacích.
-!||youtube.com^        # Povolení hlavní Youtube domény.
-!||ytimg.com^          # Povolení obrázků z Youtube (náhledy videí).
-
-#||discord.com^        # Zakomentováno – blokace Discordu (zatím neaktivní).
-
-### Kategorie: Google Photos
-||ggpht.com^           # Servery s obrázky a náhledy z Google Photos (např. sdílené galerie).
-
-### Kategorie: Sociální sítě – Facebook, Reddit, Twitch
-# Blokace sociálních sítí kvůli soukromí, odvedení pozornosti nebo omezení přístupu.
-||facebook.com^         # Facebook – sociální síť, blokace může narušit načítání obrázků a vide
-||facebook.net^         # Facebook – sociální síť, blokace může narušit načítání obrázků a videí.
-||fbcdn.net^            # Facebook CDN – blokace může narušit načítání obrázků a videí.
-||reddit.cz^           # Česká verze Redditu – sociální síť pro sdílení obsahu.
-||twitch.tv^           # Hlavní doména Twitch – streamovací platforma.
-||betterttv.net^       # Plugin pro Twitch – přidává nové emoty a funkce. Blokace může narušit zobrazení chatu.
-||baidu.com^           # Čínský vyhledávač – často považován za "spyware" kvůli sledování.
-
-### Kategorie: Hry
-# Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
-||codmwest.com^        # Call of Duty: Mobile západní servery.
-||modxvm.com^          # Modifikace pro WoT – sledování statistik.
-||tanks.gg^            # Statistiky vozidel z WoT.
-||poliroid.me^         # Náhledy a doplňky pro herní módy.
-||tomato.gg^           # Sledování výkonu hráče (WoT).
-||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
-||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
-||geforcenow.com^      # Cloudové hraní od NVIDIA.
-||gamecloud.club^      # Alternativa cloudového hraní.
-||vortex.gg^           # Další cloud gaming platforma.
-||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
-
-## Blokace komplet Wargaming.net
-||worldoftanks.eu^
-||wargaming.net^
-||wargaming.com^
-||wotblitz.com^
-||worldoftanks.com^
-||worldofwarships.com^
-||wgcdn.co^
-||wotpub.com^
-||wgc-external-<region>.wargaming.net^
-
-
-### Kategorie: Seznam profi – Výjimky
-# Povoleno, aby e-mailové a přihlašovací služby Seznam.cz fungovaly i při blokaci zpravodajských webů.
-@@emailprofi.seznam.cz^
-@@login.szn.cz^
-@@login.seznam.cz^
-@@email.seznam.cz^
-@@napoveda.seznam.cz^
-
-### Kategorie: O2
-# Blokace streamovacích služeb a internetového poskytovatele O2 – pro snížení sledování.
-||o2tv.cz^          # O2 TV – streamovací služba od O2, blokováno pro snížení sledování.
-||o2active.cz^      # O2 Active – streamovací služba od O2, blokováno pro snížení sledování.
-||o2.cz^            # O2 – internetový poskytovatel, blokováno pro snížení sledování.
-
-
-### Kategorie: České zpravodajství (dezinformace + bulvár)
-# Subjektivní blokace médií, která mohou šířit dezinformace, bulvár nebo nadbytečné zprávy.
-||idnes.cz^
-||seznam.cz^
-||seznamzpravy.cz^
-||novinky.cz^
-||securitymagazin.cz^
-||cnn.iprima.cz^
-||dotyk.cz^
-||cc.cz^
-||voxpot.cz^
-||super.cz^
-||sport.cz^
-||stream.cz^
-||extra.cz^
-||prozeny.cz^
-||garaz.cz^
-||kverulant.org^
-||pametnaroda.cz^
-||iprima.cz^
-||aktualne.cz^
-||echo24.cz^
-||ceskenoviny.cz^
-||ihned.cz^
-||hn.cz^
-||lifee.cz^
-||forum24.cz^
-||autosalon.tv^
-||vlasta.cz^
-||nova.cz^
-||nastartu.cz^
-||denikn.cz^
-
-### Kategorie: Filmy
-# Weby pro streamování nebo stahování filmů – často porušující autorská práva.
-||kukaj.to^
-||prehraj.to^
-||prehrajto.cz^
-||bombuj.si^
-
-
-### Kategorie: Dospělý obsah (18+)
-||pornhub.com^
-||xvideos.com^
-
-### Kategorie: Čínské sledovací domény
-# Domény často používané ke sledování uživatelů z Číny.
-||baidu.com^
-||qq.com^
-||taobao.com^
-||sg-dr.intlgame.com^
-||grs.platform.dbankcloud.ru^  # Doména spojená s čínským cloudovým úložištěm.
-
-### Kategorie: Americké & UK sledovací domény
-# Reklamní, analytické nebo sledovací platformy.
-# ||amazonaws.com^      # Zakomentováno – používá Amazon S3. Může být potřeba povolit pro některé služby.
-||norton.com^
-||doubleclick.net^     # Google reklamní síť.
-||xmllover.com^
-||telemetry.malwarebytes.com^  # Sledování u antiviru Malwarebytes.
-||bing.com^
-||pixelgunserver.com^
+! ProtonMail (původně v AntiVPN ve vašem seznamu)
+||protonmail.com^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||protonvpn.ch^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||protonvpn.com^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||session.protonvpn.ch^
+! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
+||torproject.net^
+! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
+||torproject.org^
+! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
+||torservers.net^
+! Tummy.com (původně v AntiVPN ve vašem seznamu)
 ||tummy.com^
-
-
-### Kategorie: Neznámé aplikace
-||izatcloud.net^
-||mozaws.net^
-||taqbom.com^
-||videovai.xyz^
-||goooooooooooooooooooooooooooooooooooooooooooooooooooooooooogle.com^  # Trolling adresa.
-||stun.internetcalls.com^
-||stun.voipbuster.com^
-||stun.sipgate.com^
-||google.ru^
-
-
-### Kategorie: Telemetrie a sledování
-||crashlytics.com^       # Telemetrie – sběr dat o pádech a chybách v aplikacích.
-||sirius.mwbsys.com^      # Malwarebytes telemetrie.
-||trace.svc.ui.com^       # Ubiquiti telemetrie.
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||vpn-api.protonvpn.ch^
+! ProtonVPN (původně v AntiVPN ve vašem seznamu)
+||vpn-api.protonvpn.com^

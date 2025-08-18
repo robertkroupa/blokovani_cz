@@ -7,44 +7,51 @@
 #
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/blokovani_cz-(hry).txt
+! ================================
+! Herní servery a platformy
+! ================================
 
-### Obecná Kategorie
-#||example.com^
+! Soubor: blokovani_cz-(Hry).txt
+! Zdroj: konsolidace vašich 4 vstupních souborů (duplicitní položky odstraněny).
+! Syntaxe:
+!   - blokace:   ||domena.tld^   (nebo s cestou, pokud jste ji tak uvedl)
+!   - výjimka:   @@||domena.tld^
+!   - komentář:  řádky začínající ! nebo #
+! Každá položka níže má svůj komentář na řádku nad pravidlem.
 
-### Kategorie: Hry
-# Blokace domén spojených s online hraním nebo herními službami – pro snížení závislosti, úsporu času nebo šířky pásma.
-||codmwest.com^        # Call of Duty: Mobile západní servery.
-||modxvm.com^          # Modifikace pro WoT – sledování statistik.
-||tanks.gg^            # Statistiky vozidel z WoT.
-||poliroid.me^         # Náhledy a doplňky pro herní módy.
-||tomato.gg^           # Sledování výkonu hráče (WoT).
-||bluestacks.com^      # Android emulátor – používá se často pro hraní mobilních her.
-||Exitgamescloud.com^  # Multiplayer backend pro mobilní hry.
-||geforcenow.com^      # Cloudové hraní od NVIDIA.
-||gamecloud.club^      # Alternativa cloudového hraní.
-||vortex.gg^           # Další cloud gaming platforma.
-||roblox.com^          # Platforma pro tvorbu a hraní her – velmi populární u dětí.
-
-## Blokace komplet Wargaming.net
-||worldoftanks.eu^
-||wargaming.net^
-||wargaming.com^
-||wotblitz.com^
-||worldoftanks.com^
-||worldofwarships.com^
-||wgcdn.co^
-||wotpub.com^
-||wgc-external-<region>.wargaming.net^
-
-### Roblox
-||roblox.com^
-||rbxcdn.com^
-||rbxcdn.net^
-||rbxcloud.com^
-||rbxdev.com^
-||rbxasset.com^
-||rbxassetid.com^
+! Roblox (původně v Hry ve vašem seznamu)
 ||rbxapi.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxasset.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxassetid.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxcdn.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxcdn.net^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxcloud.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||rbxdev.com^
+! Roblox (původně v Hry ve vašem seznamu)
+||roblox.com^
+! Roblox (původně v Hry ve vašem seznamu)
 ||roblox.qq.com^
-
-
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wargaming.com^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wargaming.net^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wgc-external-<region>.wargaming.net^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wgcdn.co^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||worldoftanks.com^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||worldoftanks.eu^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||worldofwarships.com^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wotblitz.com^
+! Wargaming / WoT / WoWS (původně v Hry ve vašem seznamu)
+||wotpub.com^
