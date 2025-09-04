@@ -16,33 +16,3 @@
 !   - komentář:  řádky začínající ! nebo #
 ! Každá položka níže má svůj komentář na řádku nad pravidlem.
 
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||account.protonvpn.ch^
-! ProtonMail (původně v AntiVPN ve vašem seznamu)
-||api.protonmail.ch^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||api.protonvpn.ch^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||installers.protonvpn.com^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||logbook.protonvpn.ch^
-! ProtonMail (původně v AntiVPN ve vašem seznamu)
-||protonmail.com^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||protonvpn.ch^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||protonvpn.com^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||session.protonvpn.ch^
-! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
-||torproject.net^
-! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
-||torproject.org^
-! Tor / projekt Tor (původně v AntiVPN ve vašem seznamu)
-||torservers.net^
-! Tummy.com (původně v AntiVPN ve vašem seznamu)
-||tummy.com^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||vpn-api.protonvpn.ch^
-! ProtonVPN (původně v AntiVPN ve vašem seznamu)
-||vpn-api.protonvpn.com^
