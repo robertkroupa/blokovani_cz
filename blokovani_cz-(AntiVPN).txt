@@ -16,3 +16,26 @@
 !   - komentář:  řádky začínající ! nebo #
 ! Každá položka níže má svůj komentář na řádku nad pravidlem.
 
+||1.1.1.1^
+||1.0.0.1^
+||2606:4700:4700::1111^
+||2606:4700:4700::1001^
+
+||cloudflare-dns.com^
+||one.one.one.one^
+||engage.cloudflareclient.com^
+||warp.plus^
+||*.warp.plus^
+
+
+
+||protonvpn.com^
+||*.protonvpn.com^
+||vpn.protonvpn.com^
+||prsvp.protonvpn.com^
+||api.protonvpn.com^
+
+||10.0.0.0/8^
+||10.2.0.1^
+||10.7.7.1^
+||10.8.8.1^
