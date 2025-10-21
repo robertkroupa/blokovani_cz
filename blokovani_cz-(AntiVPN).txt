@@ -1,4 +1,4 @@
-# CZ+SK-filtr_blokovani_cz-(LIGHT).txt
+# CZ+SK-filtr_blokovani_cz-(AntiVPN).txt
 # VERZE 2025-04-18 11:45
 # 
 #
@@ -6,7 +6,7 @@
 #
 #
 # STAŽENÍ NA:
-# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/adguard_filtr_blokovani_cz(LIGHT).txt
+# https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/blokovani_cz-(AntiVPN).txt
 
 ! Soubor: blokovani_cz-(AntiVPN).txt
 ! Zdroj: konsolidace vašich 4 vstupních souborů (duplicitní položky odstraněny).
