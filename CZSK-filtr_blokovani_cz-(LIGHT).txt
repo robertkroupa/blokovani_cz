@@ -35,7 +35,7 @@
 ! Položka k ručnímu roztřídění
 ||bing.com^
 ! Položka k ručnímu roztřídění
-||bombuj.si^
+#||bombuj.si^
 ! Položka k ručnímu roztřídění
 ||cc.cz^
 ! Položka k ručnímu roztřídění
