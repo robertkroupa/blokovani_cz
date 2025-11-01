@@ -73,8 +73,6 @@
 ! Položka k ručnímu roztřídění
 ||lifee.cz^
 ! Položka k ručnímu roztřídění
-||mozaws.net^
-! Položka k ručnímu roztřídění
 ||nastartu.cz^
 ! Položka k ručnímu roztřídění
 ||norton.com^
