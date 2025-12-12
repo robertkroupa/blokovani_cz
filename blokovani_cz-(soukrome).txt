@@ -28,3 +28,4 @@
 ||stun.sipgate.com^
 ! STUN (VoIP) – položka z vašeho seznamu
 ||stun.voipbuster.com^
+||Rayjump.com^
