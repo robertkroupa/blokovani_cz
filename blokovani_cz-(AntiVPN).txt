@@ -39,3 +39,44 @@
 ||10.2.0.1^
 ||10.7.7.1^
 ||10.8.8.1^
+! ===== KOMERČNÍ VPN =====
+||nordvpn.com^
+||nordcdn.com^
+||expressvpn.com^
+||expressapisv2.net^
+||protonvpn.com^
+||proton.me^
+||surfshark.com^
+||cyberghostvpn.com^
+||privateinternetaccess.com^
+||mullvad.net^
+||tunnelbear.com^
+||windscribe.com^
+||hotspotshield.com^
+
+! ===== CLOUD / MOBILNÍ TUNELY =====
+||cloudflare-dns.com^
+||one.one.one.one^
+||warp.cloudflare.com^
+||psiphon.ca^
+||psiphon3.com^
+||getlantern.org^
+
+! ===== MESH / P2P VPN =====
+||tailscale.com^
+||zerotier.com^
+||logmein.com^
+||hamachi.cc^
+
+! ===== TOR =====
+||torproject.org^
+
+! ===== OBECNÉ REGEXY – VPN / TUNELY =====
+/(?i)(^|\.)[a-z0-9-]*(vpn|proxy|warp|wireguard|shadowsocks|v2ray|outline|psiphon|lantern|zerotier|tailscale|softether)[a-z0-9-]*\./
+
+
+||dns.google^
+||cloudflare-dns.com^
+||dns.quad9.net^
+||doh.opendns.com^
+||mozilla.cloudflare-dns.com^
