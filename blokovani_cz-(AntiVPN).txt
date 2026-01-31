@@ -72,7 +72,7 @@
 ||torproject.org^
 
 ! ===== OBECNÉ REGEXY – VPN / TUNELY =====
-/(?i)(^|\.)[a-z0-9-]*(vpn|proxy|warp|wireguard|shadowsocks|v2ray|outline|psiphon|lantern|zerotier|tailscale|softether)[a-z0-9-]*\./
+/(?i)(^|\.)[a-z0-9-]*(vpn|proxy|warp|wireguard|shadowsocks|v2ray|outline|psiphon|lantern|zerotier|softether)[a-z0-9-]*\./
 
 
 ||dns.google^
