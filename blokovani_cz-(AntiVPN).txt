@@ -63,7 +63,7 @@
 ||getlantern.org^
 
 ! ===== MESH / P2P VPN =====
-||tailscale.com^
+! ||tailscale.com^
 ||zerotier.com^
 ||logmein.com^
 ||hamachi.cc^
