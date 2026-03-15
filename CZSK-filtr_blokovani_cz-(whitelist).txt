@@ -8,11 +8,11 @@
 # STAŽENÍ NA:
 # https://raw.githubusercontent.com/robertkroupa/blokovani_cz/refs/heads/main/CZSK-filtr_blokovani_cz-(whitelist).txt
 
-@@||dns.google^
-@@||openai.com^
-@@||chat.openai.com^
-@@||platform.openai.com^
-@@||auth0.openai.com^
-@@||cdn.openai.com^
-@@||cdn.jsdelivr.net^
-@@||cloudflare.com^
+@@||challenges.cloudflare.com^Číst [](file:///d%3A/Data/GitHub/blokovani_cz/blokovani_cz-%28AntiVPN%29.txt#1-1), řádky 1 až 30
+
+Číst [](file:///d%3A/Data/GitHub/blokovani_cz/CZSK-filtr_blokovani_cz-%28whitelist%29.txt)
+
+Ve whitelistu (CZSK-filtr_blokovani_cz-(whitelist).txt.txt)) je aktuálně `@@||cloudflare.com^`, který povoluje **celou** doménu `cloudflare.com`.
+
+
+@@||challenges.cloudflare.com^
